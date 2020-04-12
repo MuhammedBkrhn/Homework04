@@ -46,7 +46,8 @@ void fillTriangles(vector<Triangle>& v, int numberOfItems = 100)
 }
 
 // Rastgele olarak Quadrilateral nesneleri olusturur ve parametre olarak verilen vektore ekler.
-/* Quadrilateral nesnelerinde yer alacak noktalarýn x ve y deðerleri [0, 100] arasýnda olabilir.
+/* 
+   Quadrilateral nesnelerinde yer alacak noktalarýn x ve y deðerleri [0, 100] arasýnda olabilir.
    Þeklin renk deðeri de rastgele olarak belirlenmelidir.
 */
 void fillQuads(vector<Quadrilateral>& v, int numberOfItems = 100)
