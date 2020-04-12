@@ -9,7 +9,8 @@
 using namespace std;
 
 // Rastgele olarak Triangle nesneleri olusturur ve parametre olarak verilen vektore ekler.
-/* Triangle nesnelerinde yer alacak noktalarýn x ve y deðerleri [0, 100] arasýnda olabilir.
+/* 
+   Triangle nesnelerinde yer alacak noktalarýn x ve y deðerleri [0, 100] arasýnda olabilir.
    Þeklin renk deðeri de rastgele olarak belirlenmelidir.
 */
 void fillTriangles(vector<Triangle>& v, int numberOfItems = 100)
